@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Freehand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+.btn-responsive {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+.bodycontact {
+   
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+  font-weight: 400;
+  color: #fff;
+  color: #262626;
+  /* background: white; */
+}
+
+.rowcontact {
+  /* color:wheat; */
+  display: flex;
+  align-items: center;
+  background: white;
+  justify-content: center;
+  background: white;
+}
+
+.gitsxn {
+ 
+background-image: url('../public/images/contact.jpg');
+/* background: white; */
+  font-family: 'Hind', sans-serif;
+  /* background: white; */
+}
+.gitsxn_heading {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 1000;
+
+}
+.gitsxncardspos {
+  top: 65%;
+}
+.text-justify {
+  text-align: justify;
+}
