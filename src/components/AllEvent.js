@@ -38,17 +38,18 @@ const Allevents = () => {
   const onChange = (e) => {
 
     setSearchInput(e.target.value);
+    search();
     
 
   };
-  // const onSearch = (e) => {
-  //   // console.log('hello');
-  //   e.preventDefault();
-  //   setSearchInput(e.target.value);
-  //   console.log(searchInput)
-  //   search();
+  const onSearch = (e) => {
+    // console.log('hello');
+    e.preventDefault();
+    setSearchInput(e.target.value);
+    console.log(searchInput)
+    search();
    
-  // }
+  }
 
 
   function search() {
@@ -457,7 +458,7 @@ const Allevents = () => {
       type="text"
           name="query"
           placeholder="search"
-          onChange={onChange}>
+          onChange={onSearch}>
       <Input  />
       <InputGroup.Button>
         <SearchIcon />
